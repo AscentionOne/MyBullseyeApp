@@ -22,4 +22,5 @@
     <string name="about_page_title">About Bullseye</string>
     <string name="start_over_button_description">Start over</string>
     <string name="info_button_description">Game information</string>
+    <string name="background_image_description">Bullseye game background</string>
 </resources>
