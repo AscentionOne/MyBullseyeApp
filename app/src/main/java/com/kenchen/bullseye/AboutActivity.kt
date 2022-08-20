@@ -16,7 +16,7 @@ class AboutActivity : AppCompatActivity() {
         title = getString(R.string.about_page_title)
 
         // back button hit
-        binding.goBackButton?.setOnClickListener {
+        binding.goBackButton.setOnClickListener {
             finish()
         }
     }

@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         binding.hitButton.setOnClickListener {
             showResult()
             totalScore += pointsForCurrentRound()
-            binding.gameScoreTextView?.text = totalScore.toString()
+            binding.gameScoreTextView.text = totalScore.toString()
         }
 
         binding.seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
@@ -50,12 +50,12 @@ class MainActivity : AppCompatActivity() {
         })
 
         // start over button hit
-        binding.startOverButton?.setOnClickListener {
+        binding.startOverButton.setOnClickListener {
             startNewGame()
         }
 
         // info button hit
-        binding.infoButton?.setOnClickListener {
+        binding.infoButton.setOnClickListener {
             navigateToAboutPage()
         }
     }
@@ -88,8 +88,8 @@ class MainActivity : AppCompatActivity() {
         sliderValue = 0
         targetValue = newTargetValue()
 
-        binding.gameScoreTextView?.text = totalScore.toString()
-        binding.gameRoundTextView?.text = numRound.toString()
+        binding.gameScoreTextView.text = totalScore.toString()
+        binding.gameRoundTextView.text = numRound.toString()
         binding.targetTextView.text = targetValue.toString()
         binding.seekBar.progress = sliderValue
 
@@ -111,7 +111,7 @@ class MainActivity : AppCompatActivity() {
             // increment round
             numRound += 1
             // show number of round
-            binding.gameRoundTextView?.text = numRound.toString()
+            binding.gameRoundTextView.text = numRound.toString()
 
             // generate new target value
             targetValue = newTargetValue()
