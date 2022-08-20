@@ -12,13 +12,13 @@
         <activity
             android:name=".AboutActivity"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="landscape"
+
             android:theme="@style/Theme.Bullseye"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="landscape"
+
             android:theme="@style/Theme.Bullseye.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,3 +29,5 @@
     </application>
 
 </manifest>
+
+<!--    android:screenOrientation="landscape"-->
