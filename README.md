@@ -11,7 +11,7 @@ This is my first android app! 🎉 Happy to show you all The Bullseye game! Come
 3. Tap "Refresh" button to start a new game
 4. Tap "Info" button to see more information about the game
 
-## Resouse
+## Resouses
 
 [Your First Kotlin Android App: An App From Scratch](https://www.raywenderlich.com/30498263-your-first-kotlin-android-app-an-app-from-scratch)
 
