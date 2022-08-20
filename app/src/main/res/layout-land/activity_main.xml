@@ -11,13 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-20dp"
+        android:contentDescription="@string/background_image_description"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background"
-        android:contentDescription="@string/background_image_description" />
+        app:srcCompat="@drawable/background" />
 
     <TextView
         android:id="@+id/textView"
@@ -45,11 +45,11 @@
 
     <SeekBar
         android:id="@+id/seekBar"
-        android:progressDrawable="@drawable/seekbar_progress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:paddingStart="40dp"
         android:paddingEnd="40dp"
+        android:progressDrawable="@drawable/seekbar_progress"
         android:splitTrack="false"
         android:thumb="@drawable/nub"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,8 +60,8 @@
 
     <TextView
         android:id="@+id/minTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="11dp"
+        android:layout_height="14dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="16dp"
         android:text="@string/min_value_text"
@@ -145,7 +145,7 @@
             style="@style/game_stats_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0" />
+            android:text="@string/initial_score_value" />
     </LinearLayout>
 
     <LinearLayout
@@ -171,6 +171,6 @@
             style="@style/game_stats_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0" />
+            android:text="@string/initial_round_value" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
