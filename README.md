@@ -2,7 +2,7 @@
 
 This is my first android app! 🎉 Happy to show you all The Bullseye game! Come and play!
 
-![alt text](https://user-images.githubusercontent.com/44708790/185727752-406146ef-cfcf-47ed-9aa4-13af24210399.png 'Bullseye screenshot')
+![alt text](https://raw.githubusercontent.com/AscentionOne/MyBullseyeApp/master/screenshots/Bullseye_screenshot.png 'Bullseye screenshot')
 
 ## How to play the game?
 
