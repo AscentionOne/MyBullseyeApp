@@ -20,4 +20,6 @@
     <string name="about_bullseye_text">This is Bullseye, the game where you can win points and earn fame by dragging a slider.\nYour goal is to place the slider as close as possible to the target value. The closer you are, the more points you score.\nEnjoy!</string>
     <string name="back_button_text">Go Back!</string>
     <string name="about_page_title">About Bullseye</string>
+    <string name="start_over_button_description">Start over</string>
+    <string name="info_button_description">Game information</string>
 </resources>
