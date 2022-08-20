@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.gameScoreTextView?.text = totalScore.toString()
         binding.gameRoundTextView?.text = numRound.toString()
-        binding.targetTextView?.text = targetValue.toString()
+        binding.targetTextView.text = targetValue.toString()
         binding.seekBar.progress = sliderValue
 
     }
