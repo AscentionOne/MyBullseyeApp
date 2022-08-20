@@ -1,11 +1,10 @@
 package com.kenchen.bullseye
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.SeekBar
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.kenchen.bullseye.databinding.ActivityMainBinding
 import kotlin.math.abs
@@ -56,12 +55,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         // info button hit
-        binding.infoButton?.setOnClickListener{
+        binding.infoButton?.setOnClickListener {
             navigateToAboutPage()
         }
     }
 
-    private fun navigateToAboutPage(){
+    private fun navigateToAboutPage() {
         val intent = Intent(this, AboutActivity::class.java)
         startActivity(intent)
     }
@@ -92,7 +91,7 @@ class MainActivity : AppCompatActivity() {
         binding.gameScoreTextView?.text = totalScore.toString()
         binding.gameRoundTextView?.text = numRound.toString()
         binding.targetTextView?.text = targetValue.toString()
-        binding.seekBar?.progress = sliderValue
+        binding.seekBar.progress = sliderValue
 
     }
 
