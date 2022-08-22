@@ -17,4 +17,4 @@ This is my first android app! 🎉 Happy to show you all The Bullseye game! Come
 
 [Your First Kotlin Android App: Polishing the App](https://www.raywenderlich.com/30498681-your-first-kotlin-android-app-polishing-the-app)
 
-Check out more greate video/written course from [Raywenderlich](https://www.raywenderlich.com/home)
+Check out more greate video/written courses from [Raywenderlich](https://www.raywenderlich.com/home)
